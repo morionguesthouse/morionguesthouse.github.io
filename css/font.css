@@ -1,0 +1,83 @@
+@charset "utf-8";
+
+@import url(http://fonts.googleapis.com/css?family=Lora%3A400);
+
+body {
+}
+
+body, p, table, td {
+    font: normal 15px/160% sans-serif;
+    color: #666666;
+}
+
+input, textarea {
+    font: normal 15px/160% sans-serif;
+}
+
+h1 {
+    font: normal normal bold 19px/140% sans-serif;
+    color: #666666;
+}
+
+h2 {
+    font: normal normal bold 17px/140% sans-serif;
+    color: #666666;
+}
+
+h3 {
+    font: normal normal bold 14px/140% sans-serif;
+    color: #666666;
+}
+
+a:link,
+a:visited {
+    text-decoration: underline;
+ /* fix */
+    color: #1B74FF;
+}
+
+a:active,
+a:hover {
+    text-decoration: none;
+ /* fix */
+    color: #1B74FF;
+}
+
+div.hr {
+    border-bottom-style: dotted;
+    border-bottom-width: 1px;
+ /* fix */
+    border-color: #999999;
+    height: 1px;
+}/*  alternative */
+
+.altcolor,
+.altcolor p {
+    color: #EEEEEE;
+}
+
+.altcolor h1 {
+    color: #EEEEEE;
+}
+
+.altcolor h2 {
+    color: #EEEEEE;
+}
+
+.altcolor h3 {
+    color: #EEEEEE;
+}
+
+.altcolor a:link,
+.altcolor a:visited {
+    color: #FFFCF4;
+}
+
+.altcolor a:active, 
+.altcolor a:hover {
+    color: #FFFCF4;
+}
+
+.altcolor div.hr {
+    border-color: #EEEEEE;
+}
