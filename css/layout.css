@@ -3,7 +3,7 @@ body {
 }
 
 .altcolor {
-    background-color: #565656;
+    background: #4a4a4a;
 }
 
 /* Container */
@@ -39,8 +39,8 @@ div#emotion-header strong#emotion-header-title {
     left: 0;
     left: 5%;
     top: 12%;
-    font: normal bold 40px/120% sans-serif, Lora, serif;
-    color: #000000;
+    font: normal bold 40px/120% 'Rochester', cursive, sans-serif, Lora, serif;
+    color: #FFFFFF;
 }
 
 div#overlay_top {
